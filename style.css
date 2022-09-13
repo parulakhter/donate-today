@@ -21,7 +21,7 @@ body {
 .banner-font {
     font-size: 65px;
     font-weight: 600;
-    font-family: inter;
+    font-family: 'Inter';
 }
 
 .content {
@@ -49,7 +49,8 @@ body {
 
 .donate-area {
     margin-top: 130px;
-    align-content: center;
+    text-align: center;
+
 }
 
 .flex {
@@ -60,28 +61,39 @@ body {
 .donate-amount {
     margin: 30px 0;
     padding: 25px 15px;
-    background-color: #FAFAFA;
     border-radius: 5px;
-    margin-right: 22px;
+    margin-right: 5px;
 }
 
 h2 {
     color: #121212;
     font-size: 45px;
     font-weight: bold;
-    font-family: inter;
+    font-family: 'Inter';
     text-align: center;
     margin-bottom: 20px;
 }
 
 h3 {
-    font-family: inter;
+    font-family: 'Inter';
     font-weight: bold;
     font-size: 30px;
     color: #707070;
     text-align: center;
     padding: 43px 23px;
     border-radius: 5px;
+    background-color: #FAFAFA;
+}
+
+h4 {
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+p {
+    font-size: 18px;
 }
 
 #pink-text {
@@ -90,13 +102,8 @@ h3 {
     border: solid 3px #FF5959;
 }
 
-.donate-area p {
-    text-align: center;
-    font-size: 18px;
-}
-
 .line-width {
-    width: 61%;
+    width: 55%;
     margin: 0 auto;
     text-align: center;
 }
@@ -116,3 +123,164 @@ input {
     background-color: #DADADA;
     border: none;
 }
+
+/* Donate Plan Area */
+.box {
+    width: 24%;
+    margin: 50px 15px;
+    padding: 60px 20px;
+    border-radius: 25px;
+    text-align: left;
+    align-items: center;
+}
+
+.box img {
+    width: 58PX;
+    margin-bottom: 30px;
+}
+
+#box-1 {
+    background-color: #EDF5F6;
+}
+
+#box-2 {
+    background-color: #FFEEEE;
+}
+
+#box-3 {
+    background-color: #FFF4D6;
+}
+
+/* contribution Area */
+.contribution-area {
+    margin-top: 100px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.half-width {
+    width: 40%;
+    text-align: left;
+    padding-right: 100px;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.half-width h2 {
+    text-align: left;
+}
+
+/* Extra section */
+
+.vertical-line h2::before {
+    content: "";
+    height: 100px;
+    width: 5px;
+    background-color: #FF5959;
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.vertical-line {
+    text-align: left;
+    margin-right: 50px;
+}
+
+.vertical-line ul li {
+    margin-left: 20px;
+}
+
+.highlighted {
+    color: #333333;
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+
+#big-text {
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #333333;
+    font-weight: 400;
+}
+
+.team-activities img {
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+
+.team-activities h5 {
+    text-align: center;
+    font-weight: 500;
+}
+
+#join-btn {
+    background-color: #707070;
+}
+
+/* Form Area */
+.container {
+    width: 810px;
+    height: 200px;
+    margin: 50px auto;
+    background-color: #FFF4D6;
+    align-items: center;
+}
+
+input,
+button {
+    border: none;
+    font-size: 14px;
+    padding: 8px 10px;
+    margin: 0;
+    height: 45px;
+}
+
+input[type="email"] {
+    width: 275px;
+    margin-top: 76px;
+    background-color: #D9D9D9;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.search-btn {
+    width: 160px;
+    margin-top: 76px;
+    cursor: pointer;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: #FF5959;
+    color: whitesmoke;
+}
+
+/* Footer Area */
+.footer-area {
+    background-color: #0B0D17;
+    margin-top: 150px;
+}
+
+.footer-content {
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 20px;
+}
+
+#footer-heading {
+    font-family: 'Lobster';
+    font-size: 36px;
+    font-weight: 400;
+    color: #FF5959;
+
+}
+
+small {
+    color: #D9DBE1;
+    font-family: 'Poppins';
+}
+
+/* End */
