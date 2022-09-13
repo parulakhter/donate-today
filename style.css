@@ -192,19 +192,29 @@ input {
 
 .vertical-line ul li {
     margin-left: 20px;
+    color: #FAFAFA;
 }
 
 .highlighted {
-    color: #333333;
+    color: #FAFAFA;
     margin-bottom: 20px;
     font-size: 45px;
+}
+
+#half-width-bg {
+    background-color: #0B0D17;
+    padding: 50px 0;
 }
 
 #big-text {
     font-size: 45px;
     margin-bottom: 20px;
-    color: #333333;
+    color: #FAFAFA;
     font-weight: 400;
+}
+
+#white-text {
+    color: #FAFAFA;
 }
 
 .team-activities img {
@@ -219,7 +229,8 @@ input {
 }
 
 #join-btn {
-    background-color: #707070;
+    background-color: #FAFAFA;
+    color: #0B0D17;
 }
 
 /* Form Area */
